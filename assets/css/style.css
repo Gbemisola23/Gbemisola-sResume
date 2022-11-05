@@ -5,13 +5,27 @@
     background-color:darkslategrey
 }
 
+.ui-menu-color-home {
+    background-color: black;
+}
+.ui-menu-color-resume {
+    background-color: gray;
+}
+.ui-menu-color-contact {
+    background-color: orangered;
+}
+.ui-menu-color-download {
+    background-color: purple;
+}
+
+
 /*---Heading*/
 header {
     margin: 0;
 }
 
 .heading {
-    margin-left:46px;
+    margin-left:50px;
 }
 
 .logo {
@@ -19,7 +33,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -38,8 +52,20 @@ header {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
-    margin-top: 28px;
+    margin-top: 20px;
     margin-bottom: 90px;
     color:#fff;
+}
 
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
