@@ -2,7 +2,7 @@
 
 /*---Colours*/
 .bg-color-name-title{
-    background-color:darkslategrey
+    background-color:rgb(13, 243, 243);
 }
 
 .ui-menu-color-home {
@@ -12,10 +12,10 @@
     background-color: gray;
 }
 .ui-menu-color-contact {
-    background-color: orangered;
+    background-color: rgb(255,221,210);
 }
 .ui-menu-color-download {
-    background-color: purple;
+    background-color:rgb(226,149,120);
 }
 
 
@@ -45,7 +45,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color:#fff;  
+    color:rgb(4, 0, 0);  
 }
 
 .title {
@@ -54,7 +54,7 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color:#fff;
+    color:rgb(4, 0, 0);
 }
 /*---Override bootstrap margin for menu---*/
 .list-inline-item:not(:last-child) {
@@ -63,6 +63,10 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {
@@ -86,6 +90,17 @@ header {
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #fafafa;
+    color:#fff;
     font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
